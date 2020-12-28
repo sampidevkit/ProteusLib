@@ -349,20 +349,6 @@ p.horizLine  /*Line shown above the grand total */
             <asciiWidth Type="int" Value="16"/>
             <enableLinks Type="bool" Value="false"/>
             <fieldLines Type="int" Value="0"/>
-            <fieldName Type="QString">PCB Package</fieldName>
-            <fieldWidth Type="int" Value="3"/>
-            <generateTotals Type="bool" Value="false"/>
-            <manualWidth Type="int" Value="12"/>
-            <precision Type="int" Value="0"/>
-            <prefix Type="QString"></prefix>
-            <propertyName Type="QString">PACKAGE</propertyName>
-            <suffix Type="QString"></suffix>
-        </Element>
-        <Element>
-            <applyToEmpty Type="bool" Value="false"/>
-            <asciiWidth Type="int" Value="16"/>
-            <enableLinks Type="bool" Value="false"/>
-            <fieldLines Type="int" Value="0"/>
             <fieldName Type="QString">Value</fieldName>
             <fieldWidth Type="int" Value="0"/>
             <generateTotals Type="bool" Value="false"/>
@@ -402,6 +388,6 @@ p.horizLine  /*Line shown above the grand total */
         </Element>
     </fields>
     <fullTextOuputs Type="bool" Value="false"/>
-    <groupReferences Type="bool" Value="false"/>
+    <groupReferences Type="bool" Value="true"/>
     <suppressEmptyCategories Type="bool" Value="false"/>
 </BOMTemplate>
